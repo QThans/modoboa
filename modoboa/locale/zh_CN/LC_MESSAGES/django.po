@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# 秦 磊 <ntbperst@outlook.com>, 2023
 # 李 正 <364109980@qq.com>, 2021
 #
 #, fuzzy
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-20 14:11+0200\n"
 "PO-Revision-Date: 2020-05-11 18:45+0000\n"
-"Last-Translator: 李 正 <364109980@qq.com>, 2021\n"
+"Last-Translator: 秦 磊 <ntbperst@outlook.com>, 2023\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/tonio/teams/13749/zh_CN/)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,24 +24,24 @@ msgstr ""
 
 #: admin/api/v1/serializers.py:35 admin/forms/domain.py:44
 msgid "Quota shared between mailboxes. Can be expressed in KB, MB (default) or GB. A value of 0 means no quota."
-msgstr ""
+msgstr "邮箱之间共享配额，可以用KB，MB（默认），GB表示。值为0表示没配额。"
 
 #: admin/api/v1/serializers.py:42
 msgid "Default quota in MB applied to mailboxes. A value of 0 means no quota."
-msgstr ""
+msgstr "应用于邮箱的默认配额（MB）。值为0表示没有配额。"
 
 #: admin/api/v1/serializers.py:73 admin/forms/domain.py:108
 msgid "No authorized MX record found for this domain"
-msgstr ""
+msgstr "无此域名得授权MX记录"
 
 #: admin/api/v1/serializers.py:91 admin/forms/domain.py:150
 msgid "Cannot be greater than domain quota"
-msgstr ""
+msgstr "不能大于域名配额"
 
 #: admin/api/v1/serializers.py:123 admin/api/v1/serializers.py:318
 #: admin/api/v2/serializers.py:479 admin/models/alias.py:34
 msgid "Permission denied."
-msgstr ""
+msgstr "权限不足"
 
 #: admin/api/v1/serializers.py:174 admin/api/v2/serializers.py:74
 #: admin/api/v2/serializers.py:408 admin/forms/alias.py:108
@@ -49,170 +50,170 @@ msgstr ""
 #: core/app_settings.py:608 core/app_settings.py:610 core/app_settings.py:621
 #: transport/backends.py:40
 msgid "This field is required"
-msgstr ""
+msgstr "此字段为必填项"
 
 #: admin/api/v1/serializers.py:186
 msgid "List of administered domains (resellers and domain administrators only)."
-msgstr ""
+msgstr "管理域名列表（经销商和域管理员）"
 
 #: admin/api/v1/serializers.py:292 admin/api/v2/serializers.py:458
 msgid "Not allowed for this role."
-msgstr ""
+msgstr "该角色无权限"
 
 #: admin/api/v1/serializers.py:310
 msgid "Must be equal to mailbox full_address"
-msgstr ""
+msgstr "必须跟信箱完整地址一致"
 
 #: admin/api/v1/serializers.py:347 admin/api/v2/serializers.py:503
 #: admin/forms/account.py:178 admin/forms/account.py:180
 #: admin/forms/domain.py:165 admin/forms/domain.py:294
 #: admin/forms/domain.py:297 core/forms.py:94 core/forms.py:97 core/forms.py:99
 msgid "This field is required."
-msgstr ""
+msgstr "此字段为必填项"
 
 #: admin/api/v1/serializers.py:359 admin/api/v2/serializers.py:520
 msgid "Local domain {} does not exist"
-msgstr ""
+msgstr "本地域名{}不存在"
 
 #: admin/api/v1/serializers.py:445
 msgid "A list of recipient"
-msgstr ""
+msgstr "收件人列表"
 
 #: admin/api/v1/serializers.py:492
 msgid "You don't have access to this domain."
-msgstr ""
+msgstr "你无权访问此域名"
 
 #: admin/api/v1/serializers.py:500
 msgid "You don't have access to this mailbox."
-msgstr ""
+msgstr "你无权访问此邮箱"
 
 #: admin/api/v1/viewsets.py:174
 msgid "Here is your new Modoboa password: {}"
-msgstr ""
+msgstr "这是你新Modoboa密码：{}"
 
 #: admin/api/v2/serializers.py:100 admin/forms/domain.py:314
 #, python-format
 msgid "User '%s' already exists"
-msgstr ""
+msgstr "用户 '%s' 已经存在"
 
 #: admin/api/v2/serializers.py:210 admin/api/v2/serializers.py:218
 #: admin/app_settings.py:237 admin/app_settings.py:245
 #: admin/forms/account.py:351
 msgid "Must be a positive integer"
-msgstr ""
+msgstr "必须是正整数"
 
 #: admin/api/v2/serializers.py:227 admin/app_settings.py:255
 #: pdfcredentials/api/v2/serializers.py:50
 msgid "Directory not found."
-msgstr ""
+msgstr "目录未找到"
 
 #: admin/api/v2/serializers.py:231
 msgid "Directory non-writable"
-msgstr ""
+msgstr "目录不可写"
 
 #: admin/api/v2/serializers.py:236 admin/app_settings.py:261
 msgid "openssl not found, please make sure it is installed."
-msgstr ""
+msgstr "openssl没有找到，请确认它已被安装"
 
 #: admin/api/v2/serializers.py:251 admin/app_settings.py:278
 msgid "This field only allows valid IP addresses (or networks)"
-msgstr ""
+msgstr "该字段仅允许有效的IP地址（或网络）"
 
 #: admin/api/v2/serializers.py:263
 msgid "Please disable imap migration before disabling this option."
-msgstr ""
+msgstr "在禁用此选项之前，请先禁用imap迁移。"
 
 #: admin/api/v2/serializers.py:275 admin/app_settings.py:293
 msgid "Define at least one authorized network / address"
-msgstr ""
+msgstr "定义至少一个授权网络/地址"
 
 #: admin/api/v2/serializers.py:508
 msgid "A mailbox is required to create aliases."
-msgstr ""
+msgstr "创建别名需要一个邮箱。"
 
 #: admin/api/v2/serializers.py:649
 msgid "Unknown status"
-msgstr ""
+msgstr "未知状态"
 
 #: admin/api/v2/viewsets.py:75 admin/forms/account.py:365
 #: admin/forms/account.py:373 admin/forms/alias.py:91
 msgid "You don't have access to this domain"
-msgstr ""
+msgstr "你没有该域名权限"
 
 #: admin/api/v2/viewsets.py:78 admin/views/domain.py:247
 msgid "You can't delete your own domain"
-msgstr ""
+msgstr "你不能删除你拥有的域名"
 
 #: admin/api/v2/viewsets.py:384
 msgid "No alarm ID provided"
-msgstr ""
+msgstr "没有提供警报ID"
 
 #: admin/api/v2/viewsets.py:389
 msgid "Received invalid alarm id(s)"
-msgstr ""
+msgstr "收到无效的警报ID"
 
 #: admin/app_settings.py:23 admin/app_settings.py:300 admin/handlers.py:266
 #: admin/templates/admin/_global_statistics_widget.html:11
 #: admin/templates/admin/domains.html:5 limits/app_settings.py:37
 #: limits/app_settings.py:170 limits/constants.py:9
 msgid "Domains"
-msgstr ""
+msgstr "域名"
 
 #: admin/app_settings.py:26 admin/app_settings.py:303
 msgid "Enable MX checks"
-msgstr ""
+msgstr "开启MX检查"
 
 #: admin/app_settings.py:29 admin/app_settings.py:305
 msgid "Check that every domain has a valid MX record"
-msgstr ""
+msgstr "检查每一个域名能有一个有效的MX记录"
 
 #: admin/app_settings.py:34 admin/app_settings.py:309
 msgid "Valid MXs"
-msgstr ""
+msgstr "有效MXs"
 
 #: admin/app_settings.py:37 admin/app_settings.py:312
 msgid "A list of IP or network address every MX record should match. A warning will be sent if a record does not respect it."
-msgstr ""
+msgstr 每个MX记录应该匹配的IP或网络地址列表。如果记录不遵守它，将发送警告。""
 
 #: admin/app_settings.py:45 admin/app_settings.py:318
 msgid "New domains must use authorized MX(s)"
-msgstr ""
+msgstr "新域名必须使用授权MX"
 
 #: admin/app_settings.py:48 admin/app_settings.py:321
 msgid "Prevent the creation of a new domain if its MX record does not use one of the defined addresses."
-msgstr ""
+msgstr "如果新域的MX记录不使用定义的地址之一，则阻止创建新域名"
 
 #: admin/app_settings.py:54 admin/app_settings.py:326
 msgid "Enable SPF checks"
-msgstr ""
+msgstr "开启SPF检查"
 
 #: admin/app_settings.py:57 admin/app_settings.py:328
 msgid "Check if every domain has a valid SPF record"
-msgstr ""
+msgstr "检查是否每一个域名有一个有效的SPF记录"
 
 #: admin/app_settings.py:62 admin/app_settings.py:332
 msgid "Enable DKIM checks"
-msgstr ""
+msgstr "开启DKIM检查"
 
 #: admin/app_settings.py:65 admin/app_settings.py:334
 msgid "Check if every domain with DKIM signin enabled has a valid DNS record"
-msgstr ""
+msgstr "检查是否每个启用了 DKIM 登录的域名都具有有效的 DNS 记录"
 
 #: admin/app_settings.py:71 admin/app_settings.py:339
 msgid "Enable DMARC checks"
-msgstr ""
+msgstr "开启DMARC检查"
 
 #: admin/app_settings.py:74 admin/app_settings.py:341
 msgid "Check if every domain has a valid DMARC record"
-msgstr ""
+msgstr "检查是否每个域名都有有效的DMARC记录"
 
 #: admin/app_settings.py:79 admin/app_settings.py:345
 msgid "Enable autoconfig checks"
-msgstr ""
+msgstr "开启autoconfig检查"
 
 #: admin/app_settings.py:82 admin/app_settings.py:347
 msgid "Check if every domain has a valid records for autoconfiguration"
-msgstr ""
+msgstr "检查是否每个域名都有用于自动配置的有效记录"
 
 #: admin/app_settings.py:87 admin/app_settings.py:352
 msgid "Enable DNSBL checks"
